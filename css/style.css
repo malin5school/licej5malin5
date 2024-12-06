@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", serif;
+    background-color: #f8ff99;
+    margin: 40px 40px;
+    color: black;
+}
+.container{
+    background-color: #59d0f2;
+    max-width: 1200px;
+    margin: auto;
+}
+.head{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.logo{
+    display: flex;
+}
+.image.logo{
+    padding-right: 10px;
+}
+.text-logo{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.social-link{
+    margin-left: 40px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin:  0 auto;
+}
+.left-colum{
+    
+    padding-left: 40px;
+    background-color: #f8ff99;
+    max-width: 720px;
+}
+.user-profession{
+    margin: 0;
+    color: blue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.user-name{
+    margin: 0;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.user-description{
+    margin: 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 28px;
+}
+.features-title{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.features-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.features-item{
+    flex-basis: 33%;
+    max-width: 250px;
+    margin-bottom: 30px;
+}
+.features-image{
+    display: block;
+    margin-bottom: 15px;
+}
+.features-item-title{
+    margin: 0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+.features-text{
+    margin: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 28px;
+}
+.project-title{
+    color: blue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+    margin-left: 30px;
+}
+.project-slider{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 30%;
+    margin-bottom: 10px;
+}
+.right-colum{
+    background-color: #f8ff99;
+    width: 370px;
+}
+.avatar{
+    width: 340px;
+    height: 350px;
+    background-color: white;
+    border-radius: 30%;
+    margin: auto;
+    margin-top: 30px;
+    background-image: url('../img/trizub.jpg');
+    background-repeat:no-repeat ;
+    background-position: center ;
+}
+.contacts, .tech-skills, .tech-skills1{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.right-title{
+    color: blue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-bottom: 10px;
+}
+.contact-type{
+    color: black;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 20px;
+}
+.contact-link{
+    opacity: 0.5;
+    color: rgb(39, 25, 245);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline; 
+}
+.tech-skills{
+    color: black;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-bottom: 10px;
+}
+.tech-skills1{
+    color: black;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-bottom: 10px;
+}
